@@ -1,6 +1,5 @@
 import base64
 import functions_framework
-
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -46,9 +45,3 @@ def hello_pubsub(cloud_event):
     print(base64.b64decode(cloud_event.data["message"]["data"]))
     print("hello world!!!!!!!!!!!!")
     send_test_email()
-    
-
-    
-
-# if __name__ == "__main__":
-#     hello_pubsub('data')
