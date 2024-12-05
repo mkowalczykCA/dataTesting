@@ -19,8 +19,8 @@ def send_test_email():
     smtp_port = 587
     recipient_email = RECIPIENT_EMAIL  # Email to send the test to
 
-    subject = "cloud run function test email"
-    body = "d-d-d-d-d-dj marten"
+    subject = "TESTING SERVICE RAAAAAAAA"
+    body = "d-d-d-d-d-dj marten rules number 1 coder"
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
