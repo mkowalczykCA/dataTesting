@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, Cloud Run!"
+    return "Ermmmm, You better work!"
 
 if __name__ == "__main__":
     # Listen on PORT (required for Cloud Run)
